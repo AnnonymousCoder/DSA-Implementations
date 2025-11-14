@@ -22,7 +22,7 @@ package Java;
 */
 import java.util.Arrays;
 
-class SelectionSort{
+public class SelectionSort{
 
     private static void swap(int[] arr, int i, int j){
         int temp = arr[i];

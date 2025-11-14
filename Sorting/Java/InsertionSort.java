@@ -28,7 +28,7 @@ package Java;
 import java.util.Random;
 import java.util.Arrays;
 
-class InsertionSort{
+public class InsertionSort{
 
     private static void cmpAndShift(int[] arr, int elem, int startIndex, int endIndex){
         if(startIndex == endIndex){ return; }

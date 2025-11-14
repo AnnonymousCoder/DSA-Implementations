@@ -22,7 +22,7 @@ package Java;
 
  import java.util.Arrays;
 
-class BubbleSort{
+public class BubbleSort{
     private static void swap(int[] arr, int curr , int nxt){
         int temp = arr[curr];
         arr[curr] = arr[nxt];
