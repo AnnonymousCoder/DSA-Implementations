@@ -22,14 +22,20 @@ The DSA's are implemented in;
 
 # Usage:
 Navigate into the desired DSA and language folder in terminal then:
-- For C: 
-```
-    make PROJECT_NAME=&lt;desired-dsa-src-file-name&gt;
-```
+- For C:
 
+Build: 
+```
+    make PROJECT_NAME=<desired-dsa-src-file-name>
+```
+Run: 
+```
+    make run PROJECT_NAME=<desired-dsa-src-file-name>
+```
 *[ for windows replace make with mingw32-make ]*
+
 
 - For Java: 
 ```
-    java &lt;desired-dsa-src-file-name.java&gt;
+    java <desired-dsa-src-file-name>.java
 ```
