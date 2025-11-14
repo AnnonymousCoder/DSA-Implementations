@@ -1,5 +1,5 @@
 # Data Structures and Algorithms
-This project serves to hold implementations of data structures and algorithms I have encountered in my learning journey. It is all implemented in C.
+This project serves to hold implementations of data structures and algorithms I have encountered in my learning journey.
 
 # Structure:
 The project contains each DSA in it own folder, within that folder are sub folders corresponding to a programming language that was used to implement the DSA.
