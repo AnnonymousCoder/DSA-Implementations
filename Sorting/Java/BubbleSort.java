@@ -7,6 +7,17 @@ package Java;
  *     After the first Pass the largest element should be at index N-1. 
  *  2. Repeat step 1 excluding the N-num of passes index.    
  *  
+ * Time Complexity:  O(N^2)
+ * Space Complexity: O(1)
+ *
+ * Advantages:
+ *  - Simple to implement and understand.
+ *  - In-place sorting algorithm (requires only a constant amount of additional memory space).
+ *  - Stable sorting algorithm (maintains the relative order of equal elements).
+ * 
+ * Disadvantages:
+ * - Inefficient for large datasets compared to more advanced algorithms like Quick Sort or Merge Sort.
+ * - Performs poorly on average and in the worst-case scenarios.
  */
 
  import java.util.Arrays;

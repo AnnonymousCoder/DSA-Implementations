@@ -21,7 +21,6 @@ CFLAGS = -Wall -Wextra -Wpedantic -std=c99 -Wno-missing-braces
 
 .PHONY: all clean
 
-
 all:
 	$(MAKE) $(PROG_NAME)
 	
@@ -31,6 +30,8 @@ ifeq ($(OS),Windows_NT)
 else
 	.\$(PROG_NAME)
 endif
+
+makerun: all run
 
 $(PROG_NAME): $(OBJS)
 	$(CC) -o $@ $(OBJS) $(CFLAGS) -I $(INCLUDE_PATH)
